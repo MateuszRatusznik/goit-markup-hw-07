@@ -229,7 +229,7 @@ figure, figcaption {
     margin-bottom: 30px;
 }
 
-.heading {
+.advantages-heading {
     color: var(--four-color);
     text-transform: uppercase;
     font-weight: 700;
@@ -238,7 +238,7 @@ figure, figcaption {
     letter-spacing: 0.03em;ś
 }
 
-.lorem-list-p {
+.advantages-list-p {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
