@@ -1,0 +1,40 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-color: #757575;
+    --secondary-color: #2196f3;
+    --third-color: #fff;
+    --four-color: #212121;
+    --fifth-color: #2f303a;
+    --sixth-color: rgba(255, 255, 255, 0.6);
+    --seventh-color: #F5F4FA;
+    --header-color: #ECECEC;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --team-shadow-color: rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --button-shadow-color: rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --bg-overlay: rgba(47, 48, 58, 0.4);  
+    --social-icon: #AFB1B8;
+    --footer-social-icon: rgba(255, 255, 255, 0.1); 
+    --image-bg: rgba(47, 48, 58, 0.8);
+}
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+.section {
+    padding: 94px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    padding: 0;
+} 
+
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
