@@ -65,6 +65,7 @@ figure, figcaption {
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     color: var(--main-color);
+    position: relative;
 }
 
 
@@ -427,7 +428,14 @@ figure, figcaption {
 }
 
 /* ===== PORTFOLIO ===== */
-.button { 
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button-list_btn { 
     font-weight: 500;
     font-size: 16px;
     padding: 6px 22px;
@@ -440,15 +448,7 @@ figure, figcaption {
     border: transparent;
 }
 
-.button-list {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
 
-.button-list-item {
-
-}
 
 .button-list-item:not(:last-child) {
     margin-right: 8px;
