@@ -1,0 +1,27 @@
+.works-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -30px;
+
+        &__item {
+        flex-basis: calc(100%/3-30px);
+        position: relative;
+       
+    }
+    
+        &__p {
+        position: absolute;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        color: var(--third-color);
+        line-height: 1.172;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        background-color: var(--image-bg);
+        padding: 27px 90px;
+        width: 100%;
+        top: 209px;
+    }
+}
+

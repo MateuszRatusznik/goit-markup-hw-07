@@ -1,0 +1,21 @@
+.cilents-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clients-list__link {
+    display: flex;
+    fill: var(--social-icon);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--social-icon);
+    border-radius: 4px;
+    padding: 16px 32px;
+
+    &:hover, &:focus {
+    fill: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    }
+}
+

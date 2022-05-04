@@ -1,7 +1,8 @@
+$main-font: 'Roboto', sans-serif;
+$secondary-font: 'Raleway', sans-serif;
+$main-color: #757575;
+
 :root {
-    --main-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --main-color: #757575;
     --secondary-color: #2196f3;
     --third-color: #fff;
     --four-color: #212121;
@@ -16,25 +17,4 @@
     --social-icon: #AFB1B8;
     --footer-social-icon: rgba(255, 255, 255, 0.1); 
     --image-bg: rgba(47, 48, 58, 0.8);
-}
-body {
-    font-family: var(--main-font);
-    color: var(--main-color);
-}
-
-.section {
-    padding: 94px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-p {
-    padding: 0;
-} 
-
-figure, figcaption {
-    margin: 0;
-    padding: 0;
 }
